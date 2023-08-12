@@ -1,28 +1,29 @@
 import React from 'react'
 
+
 export default function Nav() {
   return (
     
-    <nav className="bg-green-500 p-4 justify">
-      <ul className="flex space-x-4">
-        <li>
-          <a className="text-white hover:text-gray-200 text-lg font-bold" href="/">Home</a>
-        </li>
-        <li>
-          <a className="text-white hover:text-gray-200 text-lg font-bold" href="/about">About</a>
-        </li>
-        <li>
-          <a className="text-white hover:text-gray-200 text-lg font-bold" href="/contact">Donate Food</a>
-        </li>
-        <li>
-          <a className="text-white hover:text-gray-200 text-lg font-bold" href="/contact">Partner Organization</a>
-        </li>
-        <li>
-          <a className="text-white hover:text-gray-200 text-lg font-bold" href="/contact">Contact</a>
-        </li>
+<nav className="bg-white p-5">
+  <ul className="flex space-x-6">
+    <li>
+      <a className="text-brown-300 hover:text-brown-200 text-xl font-semibold" href="/">Home</a>
+    </li>
+    <li>
+      <a className="text-brown-300 hover:text-brown-200 text-xl font-semibold" href="#about">About Us</a>
+    </li>
+    <li>
+      <a className="text-brown-300 hover:text-brown-200 text-xl font-semibold" href="/donate">Donate Food</a>
+    </li>
+    <li>
+      <a className="text-brown-300 hover:text-brown-200 text-xl font-semibold" href="/partners">Partners</a>
+    </li>
+    <li>
+      <a className="text-brown-300 hover:text-brown-200 text-xl font-semibold" href="/contact">Contact</a>
+    </li>
+  </ul>
+</nav>
 
-      </ul>
-    </nav>
     
   )
 }
